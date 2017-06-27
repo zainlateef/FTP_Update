@@ -1,4 +1,5 @@
 —————SYNOPSIS—————
+
 The program is relatively simple. There is a single FTP server and multiple clients. 
 The FTP server holds a single zipped update file at all times. 
 The computer stores the update name in a specific text file (FTP text accompany.txt). 
@@ -8,6 +9,7 @@ All results are stored in the computers event log
 
 
 —————NECESSARY CONDITIONS—————
+
 FTP server must have a SINGLE zip file containing the current update AT ALL TIMES
 
 Always delete the old update file on the server and replace it with the new one
